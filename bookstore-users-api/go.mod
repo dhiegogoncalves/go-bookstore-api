@@ -2,7 +2,15 @@ module bookstore-users-api
 
 go 1.17
 
-require github.com/gin-gonic/gin v1.7.7
+require (
+	github.com/gin-gonic/gin v1.7.7
+	go.uber.org/zap v1.19.1
+)
+
+require (
+	go.uber.org/atomic v1.9.0 // indirect
+	go.uber.org/multierr v1.7.0 // indirect
+)
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
